@@ -1,0 +1,34 @@
+    html {
+        background-color: antiquewhite;
+        font-family: monospace;
+    }
+
+    main > h1 {
+        text-align: center;
+    }
+
+    .backgrounds {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .b-color, .b-image, .b-gradient {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+        color: whitesmoke;
+    }
+
+    .b-color {
+    background-color: rgb(117, 99, 73);
+    }
+
+    .b-image {
+    background-image: url(https://images.unsplash.com/photo-1651435060419-eb92305f0e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80);
+    background-size: cover;
+    }
+
+    .b-gradient {
+        background-image: linear-gradient(45deg, rgba(170, 160, 154), rgba(134, 80, 48));
+    }

@@ -1,0 +1,24 @@
+p{
+    background-color: rgb(44, 44, 62);
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+img{
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p:hover + img{
+    display: block;
+}

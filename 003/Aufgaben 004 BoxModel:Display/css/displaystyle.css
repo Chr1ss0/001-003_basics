@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+p {
+    margin-top: 40px;
+    background-color: aquamarine;
+    width: 600px;
+    font: 25px monospace;
+    padding: 5px 0px 5px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 800px;
+    width: 600px;
+
+}
+
+p:hover + img {
+    display: block;
+}

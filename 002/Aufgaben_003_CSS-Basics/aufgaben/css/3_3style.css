@@ -1,0 +1,55 @@
+/* "Chelsea Market", "Fredoka One", "Pacifico", "Press Start 2P". */
+
+@font-face {
+    font-family: 'press2play';
+    src: url(../fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'fredoka';
+    src: url(../fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'chelsea market' ;
+    src: url(../fonts/ChelseaMarket-Regular.ttf);
+}
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font: 2rem/ 2em press2play;
+    text-align: center;
+    background: yellowgreen; 
+}
+
+p {
+    font-family: 'fredoka';
+    font-size: 1.25rem;
+}
+
+em {
+    font-family: 'chelsea market';
+    text-shadow: 2px -2px 1px red;
+    font-size: 1rem;
+}
+
+strong{
+    font-family: 'press2play';
+    font-size: 0.35rem;
+}
+
+a {
+    font-family: 'fredoka';
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+

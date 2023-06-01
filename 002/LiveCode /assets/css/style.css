@@ -1,0 +1,67 @@
+    /* #Einfacher Selektor */
+    
+    
+    li {
+        color: greenyellow;
+    }
+
+    p {
+        color: red;
+    }
+
+    /* #Selektor Kette */
+    section p {
+        color: black;
+    }
+
+    /* #Pseudo Selektoren */
+
+    ul li {
+        font-size: 30px;
+    }
+
+    ul li:first-child {
+        color: black;
+    }
+
+    ul li:nth-of-type(3n) {
+        color: blueviolet;
+    }
+    ul li:nth-of-type(even) {
+        background-color: gray;
+    }
+
+
+/* #Background */
+section {
+    background-color: blue;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1684971550488-6bac88724eb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* #Fonts */
+
+
+
+h1 {
+
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-style:italic;
+    font-weight: 400;
+    letter-spacing: -2px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+h1 span {
+    color: aqua;
+}
+

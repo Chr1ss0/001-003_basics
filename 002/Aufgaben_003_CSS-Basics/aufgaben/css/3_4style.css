@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'lato-thin';
+    src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'lato-bold';
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cinzel';
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'shadowintolight';
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family: 'pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.font-cinzel {
+    font-family: cinzel;
+}
+.cinzel-12 {
+    font-size: 12px;
+}
+.cinzel-36 {
+    font-size: 36px;
+}
+.cinzel-52 {
+    font-size: 52px;
+}
+
+.font-lato {
+    font-family: lato;
+}
+.lato-thin {
+    font-family: latto-thin;
+    opacity: 33%;
+}
+.lato-bold {
+    font-family: lato-bold;
+}
+
+
+.font-pacifico {
+    font-family: pacifico;
+}
+.shadow-pacifico {
+    text-shadow:0px 1px 1px black;
+}
+.underline-pacifico {
+    text-decoration: underline;
+}
+.transform-pacifico {
+    text-transform: lowercase;
+}
+
+.font-shadows {
+    font-family: shadowintolight;
+}
+
+.shadows-background {
+    background: green;
+}
+.shadows-color {
+    color: green;
+}
+.shadows-border {
+    border: solid;
+}

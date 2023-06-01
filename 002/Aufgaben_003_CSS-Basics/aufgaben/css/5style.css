@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+}
+
+
+.timeline {
+    background-color: aquamarine;
+}
+.timeline > ul {
+    font-style: italic;
+}
+
+.header, .footer {
+    text-align: center;
+}
+.footer a {
+    border: 2px solid aquamarine;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: solid; */
+    border-radius: 1rem;
+    /* border-width: 2px; */
+    /* border-color: aquamarine; */
+    padding: 3px;
+}
+
+.header h1:hover {
+    color: aquamarine;
+}
+
+.footer a:hover{
+    font-size: 1.3rem;
+}
+.footer a:active {
+    color: aquamarine;
+}
